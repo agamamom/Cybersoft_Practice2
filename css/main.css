@@ -51,7 +51,7 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;  
-    margin: 25px 10px;
+    margin: 25px 15px;
 }
 .header_navigation ul{
     display: flex;
@@ -61,14 +61,14 @@ header nav{
     font-size: 5rem;
     color: white;
     line-height: 0px;
-    padding: 10px;
+    padding: 15px;
 }
 .header__logo h1 span{
     color: aqua;
 }
 .header_navigation ul li a{
     font-size: 1.5rem;
-    padding: 7px 10px;
+    padding: 7px 15px;
     margin: 0 25px;
     font-weight: 300;
     color: rgb(255, 255, 255);
@@ -146,7 +146,7 @@ header nav{
     cursor: pointer;
     height: 12px;
     width: 12px;
-    margin: 0 10px;
+    margin: 0 15px;
     background-color: rgb(255, 255, 255);
     border-radius: 50%;
     display: inline-block; 
@@ -272,7 +272,7 @@ to {opacity: 1}
     line-height: 25px;
     color: #464343;
 }
-.blog__item h3, p, .readmore--btn{
+.blog__item h3, .blog__item p, .readmore--btn{
     margin-left: 17px;
 }
 .blog__item h3{
@@ -343,8 +343,54 @@ to {opacity: 1}
     margin: 15px 75px;
 }
 .content__side  .readmore--btn{
-    margin-top: 10px;
+    margin-top: 15px;
     margin-left: -76px;
     position: absolute;
 }
-
+/* PORTFOLIO */
+.portfolio__container{
+    width: 75%;
+    margin: 0 auto;
+}
+.portfolio__gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 9px 34px;
+    
+}
+.portfolio__gallery--item{
+    position: relative;
+}
+.portfolio__gallery--item:hover .portfolio__gallery--content{
+    opacity: 1;
+}
+.portfolio__gallery--item img{
+    width: 100%;
+}
+.portfolio__gallery--content{
+    position: absolute;
+    top: 15px;
+    bottom: 15px;
+    right: 15px;
+    left: 15px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.651);
+    padding: 0 60px;
+    opacity: 0;
+    transition: all 0.3s;
+}
+.portfolio__gallery--content h3{
+    font-size: 2.5rem;
+    color: #00cdce;
+    font-weight: 400;
+    border-top: 1px solid #00cdce;
+    border-bottom: 1px solid #00cdce;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.portfolio__gallery--content p{
+    font-size: 1.5rem;
+    color: white;
+    margin-top: 20px;
+}
+/* TESST */
