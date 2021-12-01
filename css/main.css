@@ -311,8 +311,11 @@ to {opacity: 1}
 }
 .video__side--button{
     position: absolute;
-    top: 50%;
-    right: 50%;
+    /* top: 50%;
+    right: 50%; */
+    bottom: 105px;
+    margin-bottom: 31px;
+    margin-left: 312px;
 }
 .video__side--button a{
     color: #ffffff;
@@ -348,6 +351,9 @@ to {opacity: 1}
     position: absolute;
 }
 /* PORTFOLIO */
+.portfolio{
+    padding: 60px 0;
+}
 .portfolio__container{
     width: 75%;
     margin: 0 auto;
@@ -393,4 +399,103 @@ to {opacity: 1}
     color: white;
     margin-top: 20px;
 }
-/* TESST */
+/* SUBSCRIBE */
+.subscribe{
+    background-color: #00cdce;
+    padding: 60px 0;
+}
+.subscribe__container{
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+.subscribe__container h2{
+    color: rgb(0, 0, 0);
+}
+.subscribe__content p{
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: white;
+    margin-bottom: 30px;
+}
+.input--email{
+    width: 574px;
+    height: 50px;
+    padding: 15px 10px;
+    display: block;
+    margin-left: 168px;
+}
+.input--submit{
+    width: 162px;
+    height: 48px;
+    background-color: #000000;
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-top: 20px;
+    transition: all .4s;
+}
+.input--submit:hover{
+    color: #000000;
+    background-color: #e7e3df;
+    border: 1px solid  #000000;
+}
+/* OUR AGENTS */
+.ouragents{
+    margin: 50px 0;
+}
+.ourgents__container{
+    width: 70%;
+    margin: 0 auto; 
+}
+.agents__info{
+    display: flex;
+}
+.agents__item{
+    margin: 0 14px;
+    position: relative;
+}
+.agents__item img{
+    display: block;
+}
+.agents__content{
+    position: absolute;
+    width: 255px;
+    height: 132px;
+    background-color: #363636;
+    text-align: center;
+}
+.agents__content h3{
+    color: #00cdce;
+    margin-top: 18px;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.agents__content h3:hover{
+    color: white;
+}
+.agents__content p{
+    font-size: 1.2rem;
+    color: white;
+    margin-bottom: 14px;
+}
+.agents__content i{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    color: white;
+    font-size: 1.2rem;
+    padding: 8px;
+    margin: 0 8px;
+    transition: all .3s;
+}
+.agents__social a .fa-facebook-f:hover{
+    background-color: #3b5998;
+}
+.agents__social a .fa-twitter:hover{
+    background-color: #55acee;
+}
+.agents__social a .fa-rss:hover{
+    background-color: #f26522;
+}
